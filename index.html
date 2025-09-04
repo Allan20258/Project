@@ -2,12 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width==, initial-scale=1.0">
-    <title>Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <style>
+       body {
+        font-size: 30px;
+        color: rgb(12, 85, 85);
+       }   
+       .container {
+        margin-top: 80px;
+        max-width: 400px;
+        background: #f8f9fa;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+       }
+       input, button {
+        font-size: 20px;
+        margin-bottom: 15px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+       }
+       h2 {
+        text-align: center;
+        margin-bottom: 25px;
+       }
+       p {
+        text-align: center;
+       }
+    </style>
 </head>
 <body>
-    <a href="" class="">About US</a>
-    <a href="" class="">Home</a>
-    <a href="" class="">Contact Us</a>
+  <div class="container">
+    <h2>Student Login</h2>
+    <form action="" method="post">
+        <input type="email" placeholder="Enter Your Email" required id="Email" name="Email">
+        <input type="password" name="Password" required placeholder="Enter Password">
+        <button type="submit">Log in</button>
+    </form>
+    <p>Forgot Password? <a href="">Reset here</a></p>
+  </div>  
 </body>
 </html>
